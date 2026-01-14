@@ -37,8 +37,12 @@ The purpose of this project is to understand **serverless computing basics**, IA
 ## 🔐 IAM Permissions Required
 The Lambda execution role must have permission to read the CSV file from Amazon S3.
 
+---
+
 ## 🌐 Lambda Function URL
 The Lambda function is exposed using a **https://hus43qb6xow7bv2rztulv5bhf40crjzi.lambda-url.ap-south-1.on.aws/**.
+
+---
 
 ## 🚀 How to Run / Test
 1. Upload a CSV file to Amazon S3  
@@ -47,12 +51,16 @@ The Lambda function is exposed using a **https://hus43qb6xow7bv2rztulv5bhf40crjz
 4. Open the Lambda Function URL in a browser or Postman  
 5. View the JSON output  
 
+---
+
 ## 📘 What I Learned
 - Basics of serverless architecture  
 - How AWS Lambda works internally  
 - Importance of IAM permissions  
 - Reading and processing files from Amazon S3  
 - Debugging common AWS errors like `AccessDenied`  
+
+---
 
 ## 🔮 Future Improvements
 - Add API Gateway  
@@ -61,8 +69,12 @@ The Lambda function is exposed using a **https://hus43qb6xow7bv2rztulv5bhf40crjz
 - Improve error handling  
 - Support large CSV files  
 
+---
+
 ## 👩‍💻 Author
 Haripriya Venkatesh
+
+---
 
 ## 📄 License
 This project is created for learning and educational purposes.
